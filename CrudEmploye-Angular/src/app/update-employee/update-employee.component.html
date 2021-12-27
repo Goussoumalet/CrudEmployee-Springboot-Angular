@@ -1,0 +1,31 @@
+<div class="container text-center">
+   <form (ngSubmit) = "onSubmit()" class= "form-signin">
+      <h2 class="form-signin-heading">Create Employee</h2>
+  
+    <div class ="form-group">
+         <label class="sr-only">FirstName</label>
+         <input type="text" class="form-control" id="firstName"
+         [(ngModel)]="employee.firstName"  name="FirstName" >
+  
+    </div>
+  
+    <div class ="form-group">
+       <label class="sr-only">LastName</label>
+       <input type="text" class="form-control" id="lastName"
+       [(ngModel)]="employee.lastName"  name="LastName" >
+       
+    </div>  
+  
+    <div class ="form-group">
+       <label class="sr-only">Email</label>
+        <input type="text" class="form-control" id="email"
+        [(ngModel)]="employee.email"  name="Email" >
+  
+     </div>
+  
+     
+      <button class ="btn btn-success btn-block " type="submit">Submit</button>
+  
+   </form>
+  
+  </div>

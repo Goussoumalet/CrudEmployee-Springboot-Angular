@@ -1,0 +1,37 @@
+
+<div class="container text-center">
+ <form (ngSubmit) = "onSubmit()" class= "form-signin">
+    <h2 class="form-signin-heading">Create Employee</h2>
+
+  <div class ="form-group">
+       <label class="sr-only">FirstName</label>
+       <input type="text" class="form-control" name="firstName"
+       [(ngModel)]="employee.firstName"  placeholder="FirstName" required >
+
+  </div>
+
+  <div class ="form-group">
+     <label class="sr-only">LastName</label>
+     <input type="text" class="form-control" name="lastName"
+     [(ngModel)]="employee.lastName"  placeholder="LastName" required>
+     
+  </div>  
+
+  <div class ="form-group">
+     <label class="sr-only">Email</label>
+      <input type="text" class="form-control" name="email"
+      [(ngModel)]="employee.email"  placeholder="Email" required>
+
+   </div>
+
+   <div class ="form-group">
+    <label class="sr-only">Password</label>
+     <input type="password" class="form-control" name="password"
+     [(ngModel)]="employee.password"  placeholder="Password" required >
+
+   </div>
+    <button class ="btn btn-success btn-block " type="submit">Submit</button>
+
+ </form>
+
+</div>

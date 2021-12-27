@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*@import "/node_modules/bootstrap/dist/css/bootstrap.min.css"*/
+
+
+body{
+    background-image: url('./assets/background.jpg');
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width:  100%;
+    height: 50px;
+    background-color:black;
+    text-align: center;
+    color:white;
+}
+.form-signin {
+    max-width: 550px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+.form-signin, .form-signin-heading, .form-signin {
+	margin-bottom: 10px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em; 
+   }
+h2{
+    color: black;
+}
+
+.bleu{
+    color: blue;
+}
+.jaune{
+    color: yellow;
+}
+.rouge{
+    color: red;
+}
+.vert{
+    color: green;
+}

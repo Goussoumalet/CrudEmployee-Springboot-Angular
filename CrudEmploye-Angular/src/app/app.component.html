@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Employee Manager</a>
+  <a class="navbar-brand" href="#">Accueil</a> 
+   
+  <div class="container-fluid">
+    <ul class="nav navbar-nav navbar-right">
+        <li  style ="color: white;" >
+          <a  routerLink="employees" routerLinkActive="active" class ="nav-link"> Employee List</a>
+        </li>
+        <li  style ="color: white;" >
+          <a  routerLink="create-employee" routerLinkActive="active" class ="nav-link"> Add Employee</a>
+        </li>
+    </ul>
+  
+  <form class="d-flex">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      &nbsp; &nbsp;<button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+</div>
+</nav>
+
+<h1 class="text-center">
+  <span class="bleu"> <strong>W</strong> </span>
+  <span class="rouge"><strong>E</strong></span>
+  <span class ="jaune"><strong>L</strong></span>
+  <span class ="bleu"><strong>C</strong></span>
+  <span class="vert"><strong>O</strong></span>
+  <span class="rouge"><strong>M</strong></span> 
+  <span class ="jaune"><strong>E</strong></span>
+</h1>
+<br>
+
+ <div class="container">
+   <router-outlet></router-outlet>
+ </div>
+
+ <footer class ="footer">
+   <div class ="container">
+     <span><i>All Rigth reserved @tanguy Gous</i></span>
+   </div>
+       
+ </footer>
+
+ 
